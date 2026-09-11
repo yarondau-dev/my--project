@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "behind-you",
+    "title": "Behind You",
+    "medium": "Charcoal on paper",
+    "dimensions": "20\" x 16\"",
+    "series": "Charcoal",
+    "file": "behind-you.jpg"
+  },
+  {
+    "slug": "breaking-point",
+    "title": "Breaking Point",
+    "medium": "Charcoal on paper",
+    "dimensions": "20\" x 16\"",
+    "series": "Charcoal",
+    "file": "breaking-point.jpg"
+  },
+  {
+    "slug": "into-you",
+    "title": "Into You",
+    "medium": "Charcoal on paper",
+    "dimensions": "20\" x 16\"",
+    "series": "Charcoal",
+    "file": "into-you.jpg"
+  },
+  {
+    "slug": "im-free",
+    "title": "I'm Free",
+    "medium": "Acrylic on canvas",
+    "dimensions": "36\" x 12\"",
+    "series": "Acrylic",
+    "file": "watching-you.jpg",
+    "note": "File watching-you.jpg carries the I'm Free figurative work"
+  },
+  {
+    "slug": "a-man-of-peace",
+    "title": "A Man of Peace",
+    "medium": "Acrylic on canvas",
+    "dimensions": "20\" x 16\"",
+    "series": "Acrylic",
+    "file": "a-man-of-peace.jpg"
+  },
+  {
+    "slug": "the-magical-tree",
+    "title": "The Magical Tree",
+    "medium": "Acrylic on canvas",
+    "dimensions": "12\" x 12\"",
+    "series": "Acrylic",
+    "file": "the-magical-tree.jpg"
+  },
+  {
+    "slug": "purple-stream",
+    "title": "Purple Stream",
+    "medium": "Acrylic on canvas",
+    "dimensions": "20\" x 16\"",
+    "series": "Acrylic",
+    "file": "purple-stream.jpg"
+  },
+  {
+    "slug": "phosphorus",
+    "title": "Phosphorus",
+    "medium": "Acrylic on canvas",
+    "dimensions": "36\" x 12\"",
+    "series": "Acrylic",
+    "file": "the-zebra.jpg",
+    "note": "File the-zebra.jpg was mislabeled; work is Phosphorus"
+  },
+  {
+    "slug": "colourful-blending",
+    "title": "Colourful Blending",
+    "medium": "Acrylic on canvas",
+    "dimensions": "36\" x 12\"",
+    "series": "Acrylic",
+    "file": "im-free.jpg"
+  },
+  {
+    "slug": "a-little-cloud",
+    "title": "A Little Cloud",
+    "medium": "Acrylic on canvas",
+    "dimensions": "36\" x 12\"",
+    "series": "Acrylic",
+    "file": "the-heart-beat.jpg"
+  },
+  {
+    "slug": "mini-space",
+    "title": "Mini Space",
+    "medium": "Acrylic on canvas",
+    "dimensions": "36\" x 12\"",
+    "series": "Acrylic",
+    "file": "movement.jpg"
+  },
+  {
+    "slug": "marilyn-monroe",
+    "title": "Marilyn Monroe",
+    "medium": "Acrylic on canvas",
+    "dimensions": "24\" x 18\"",
+    "series": "Acrylic",
+    "file": "the-thinker.jpg"
+  },
+  {
+    "slug": "muddy-ground",
+    "title": "Muddy Ground",
+    "medium": "Acrylic on canvas",
+    "dimensions": "36\" x 12\"",
+    "series": "Acrylic",
+    "file": "muddy-ground.jpg"
+  },
+  {
+    "slug": "water-reflection",
+    "title": "Water Reflection",
+    "medium": "Acrylic on canvas",
+    "dimensions": "36\" x 12\"",
+    "series": "Acrylic",
+    "file": "water-reflection.jpg"
+  }
+]
