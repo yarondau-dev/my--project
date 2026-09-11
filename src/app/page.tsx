@@ -9,6 +9,7 @@ import {
 } from "@/data/art";
 import { fashionHighlights, fashionLooks } from "@/data/fashion";
 import { mailtoInquiry, site } from "@/lib/site";
+import { assetPath } from "@/lib/paths";
 
 export default function HomePage() {
   const charcoalHero =
@@ -523,7 +524,7 @@ export default function HomePage() {
         <div className="brass-rule-long absolute inset-x-0 top-1/2 opacity-30" />
         <div className="relative mx-auto max-w-3xl px-5 py-20 text-center sm:px-8 lg:px-10 lg:py-32">
           <Image
-            src="/brand/logo-mono.png"
+            src={assetPath("/brand/logo-mono.png")}
             alt=""
             width={158}
             height={163}

@@ -1,3 +1,5 @@
+import { assetPath } from "@/lib/paths";
+
 export interface FashionLook {
   id: number;
   slug: string;
@@ -40,7 +42,7 @@ export const fashionLooks: FashionLook[] = Array.from({ length: 35 }, (_, i) => 
     slug: `look-${padded}`,
     title: `Look ${padded}`,
     file,
-    imagePath: `/fashion/${file}`,
+    imagePath: assetPath(`/fashion/${file}`),
   };
 }).filter((look) => !EXCLUDED_LOOK_IDS.has(look.id));
 

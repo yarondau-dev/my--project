@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { nav, site } from "@/lib/site";
+import { assetPath } from "@/lib/paths";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
         <div className="lg:col-span-5">
           <Link href="/" className="inline-flex items-center gap-3 sm:gap-3.5">
             <Image
-              src="/brand/logo-mono.png"
+              src={assetPath("/brand/logo-mono.png")}
               alt="ZEHARIA"
               width={158}
               height={163}

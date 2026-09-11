@@ -3,6 +3,7 @@ import Image from "next/image";
 import InquiryForm from "@/components/InquiryForm";
 import PageHero from "@/components/PageHero";
 import { site } from "@/lib/site";
+import { assetPath } from "@/lib/paths";
 
 export const metadata: Metadata = {
   title: "Private Inquiry",
@@ -26,7 +27,7 @@ export default function InquirePage() {
               <div className="zebra-edge absolute inset-x-0 top-0 h-1 opacity-50" />
               <div className="mb-7 flex items-center gap-3 sm:mb-8">
                 <Image
-                  src="/brand/logo-mono.png"
+                  src={assetPath("/brand/logo-mono.png")}
                   alt=""
                   width={100}
                   height={103}

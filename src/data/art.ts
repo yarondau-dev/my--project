@@ -1,4 +1,5 @@
 import catalog from "./catalog.json";
+import { assetPath } from "@/lib/paths";
 
 export type ArtSeries = "Acrylic" | "Charcoal";
 
@@ -27,5 +28,5 @@ export function getArtworksBySeries(series: ArtSeries | "All"): Artwork[] {
 }
 
 export function artworkImagePath(artwork: Artwork): string {
-  return `/art/${artwork.file}?v=3`;
+  return assetPath(`/art/${artwork.file}`) + `?v=3`;
 }

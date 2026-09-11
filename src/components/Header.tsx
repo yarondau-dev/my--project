@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { nav, site } from "@/lib/site";
+import { assetPath } from "@/lib/paths";
 
 export default function Header() {
   const pathname = usePathname();
@@ -45,7 +46,7 @@ export default function Header() {
           aria-label="ZEHARIA home"
         >
           <Image
-            src="/brand/logo-mono.png"
+            src={assetPath("/brand/logo-mono.png")}
             alt=""
             width={158}
             height={163}

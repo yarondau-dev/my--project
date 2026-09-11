@@ -6,6 +6,7 @@ import StoryBand from "@/components/StoryBand";
 import { artworkImagePath, getArtworkBySlug } from "@/data/art";
 import { fashionHighlights } from "@/data/fashion";
 import { site } from "@/lib/site";
+import { assetPath } from "@/lib/paths";
 
 export const metadata: Metadata = {
   title: "The House",
@@ -94,7 +95,7 @@ export default function TheHousePage() {
                 for commerce.
               </p>
               <Image
-                src="/brand/logo-mono.png"
+                src={assetPath("/brand/logo-mono.png")}
                 alt=""
                 width={120}
                 height={124}

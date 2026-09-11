@@ -7,6 +7,7 @@ import StoryBand from "@/components/StoryBand";
 import { getArtworkBySlug, artworkImagePath } from "@/data/art";
 import { fashionHighlights, fashionLooks } from "@/data/fashion";
 import { mailtoInquiry, site } from "@/lib/site";
+import { assetPath } from "@/lib/paths";
 
 export const metadata: Metadata = {
   title: "Vision Collection",
@@ -142,7 +143,7 @@ export default function VisionPage() {
       <section className="border-t border-border">
         <div className="mx-auto max-w-3xl px-5 py-16 text-center sm:px-8 lg:px-10 lg:py-20">
           <Image
-            src="/brand/logo-mono.png"
+            src={assetPath("/brand/logo-mono.png")}
             alt=""
             width={120}
             height={124}

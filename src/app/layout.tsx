@@ -3,6 +3,7 @@ import { Instrument_Serif, DM_Sans } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { site } from "@/lib/site";
+import { assetPath } from "@/lib/paths";
 import "./globals.css";
 
 const serif = Instrument_Serif({
@@ -38,15 +39,15 @@ export const metadata: Metadata = {
     "New York",
   ],
   icons: {
-    icon: [{ url: "/brand/logo-mono.png", type: "image/png" }],
-    apple: [{ url: "/brand/logo-mono.png" }],
+    icon: [{ url: assetPath("/brand/logo-mono.png"), type: "image/png" }],
+    apple: [{ url: assetPath("/brand/logo-mono.png") }],
   },
   openGraph: {
     title: `${site.name} — ${site.tagline}`,
     description: site.description,
     type: "website",
     locale: "en_US",
-    images: [{ url: "/concept/hero-canvas-to-wear.png" }],
+    images: [{ url: assetPath("/concept/hero-canvas-to-wear.png") }],
   },
   robots: { index: true, follow: true },
 };
